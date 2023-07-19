@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+* {
+  margin: 0;
+  font-family: arial;
+  box-sizing: border-box;
+  
+}
+
+/*top*/
+
+header {
+  color: white;
+  padding: 20px;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-position: 40% 70%; 
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+header h1 {
+  font-size: 1.9em;
+  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 3px;
+}
+
+header p {
+  font-size: 1em;
+  margin: 20px 0px 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title{
+  width: 163px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons button {
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 5px;
+  border: none;
+}
+.buttons button:last-child {
+  background-color: #191919;
+  color: white;
+}
+
+
+/*top*/
+section{
+  color: #23272A;
+  text-align: center;
+  
+}
+.text{
+  text-align: start;
+}
+section img{
+ width:340px;
+
+ 
+}
+
+.text{
+  padding: 20px;
+  
+}
+h2{
+  font-size: 2em;
+ font-weight: bold;
+}
+
+p{
+  margin: 20px 0px 30px;
+}
+
+
+/*Footer*/
+.discord-logo{
+  width: 230px;
+}
+footer{
+  background-color:#23272A ;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*Footer*/
+
+
+@media screen and (min-width: 760px) {
+header{
+  align-items: center;
+  
+}
+.content{
+  width: 719px;
+}
+.title{
+width: 700px;
+
+}
+header h1{
+  font-size: 3em;
+}
+.buttons{
+  flex-direction: row;
+}
+}
+
+
+
+
+@media screen and (min-width: 837px){
+   section img{
+    width: 840px;
+   }
+  .text{
+    width: 700px;
+    font-size: 1.7em;
+  }
+
+ 
+  
+  .left{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    justify-content: center;
+  }
+  .right{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-bottom{
+  font-size: 1.7em;
+  width: 80vw;
+  margin-top: 50px;
+
+}
+}
+
